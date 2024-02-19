@@ -19,7 +19,6 @@ alert(`Мене звати ${myName}, мені ${age} років.`)
 
 
 //lvl 2 Task 4
-//let number1, number2;
 const number1 = +prompt('Введіть перше число: ');
 const number2 = +prompt('Введіть друге число: ');
 let sum = number1 + number2;
