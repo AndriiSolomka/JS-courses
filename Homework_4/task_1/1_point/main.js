@@ -4,12 +4,9 @@
 const number1 = +prompt('Перше число: ');
 const number2 = +prompt('Друге число: ');
 
-let check1 = number1 > number2;
-let check2 = number1 < number2;
 
 
-let message =  check1 ?  'Перше число більше' : check2 ? 'Друге число більше' : 'Числа рівні';
-
+let message =  (number1 > number2) ?  'Перше число більше' : (number1 < number2) ? 'Друге число більше' : 'Числа рівні';
 console.log(message)
 
 

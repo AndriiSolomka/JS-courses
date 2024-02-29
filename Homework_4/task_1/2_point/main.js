@@ -10,6 +10,7 @@ switch (message) {
         break;
     case null:
         alert('Відміна вводу');
+        break;
     default:
         console.log(message);
     break;
