@@ -10,8 +10,12 @@ let  isPalindrom = (str) =>{
         reverse += string.charAt(i);
     }
 
-    if(reverse === string) return true;
-     else return false
+    if(reverse === string)  {
+        return true;
+    }
+     else {
+        return false;
+     } 
 
 
 }

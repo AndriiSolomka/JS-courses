@@ -2,16 +2,16 @@
 
 
 let toCamelCase = (str) => {
-    let underScore, next;
+    let underScoreIndex, nextChar, string;
+    string = str;
 
-    while (str.includes('_')) {
-        underScore = str.indexOf('_');
-        next = str.at(underScore + 1).toUpperCase();
-        str = str.slice(0, underScore) + next + str.slice(underScore + 2)
-      
+    while (string.includes('_')) {
+        underScoreIndex = string.indexOf('_');
+        nextChar = string.at(underScoreIndex + 1).toUpperCase();
+        string = string.slice(0, underScoreIndex) + nextChar + string.slice(underScoreIndex + 2)
     }
 
-    return str
+    return string
 }
 
 
