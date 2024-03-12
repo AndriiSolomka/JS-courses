@@ -72,7 +72,7 @@ let books = {
 
 
    
-   let{countries:[{authors:[{books:[{title:firstBook},{},{title:thirdBook}]}]},{authors:[{books:[{},{title:secondKidrukBookName}]},{books: [{year: yearOfPublicationKobzar}]} ]}]} = books
+   let{countries:[{authors:[{books:[firstBook,,thirdBook]}]},{authors:[{books:[{},{title:secondKidrukBookName}]},{books: [{year: yearOfPublicationKobzar}]} ]}]} = books
    
    
 
